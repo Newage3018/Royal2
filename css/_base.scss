@@ -51,27 +51,29 @@ a:active{color: rgb(0, 255, 191)};
 
 }
 .content{
-    height: 2406px;
+    height: 2297px;
     // max-height: 2406px;
     justify-content: space-around;
     
     .right-panel{
-        height: 2406px;
+        height: 2297x;
         flex-basis: 1354px;
         background: yellow;
         
 
     }
     .center-hall{
-        height: 2406px;
+        // height: 2406px;
+        height: 2297px;
         flex-basis: 3200px;
-        // background: greenyellow;
+        background: black;
         background-image: url(../img/Hall.png);
+        background-repeat: no-repeat;
         background-position: center center;
         align-items: flex-end;
     }
     .left-panel{
-        height: 2406px;
+        height: 2297px;
         flex-basis: 1354px;
         background:green;
     }

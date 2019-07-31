@@ -413,23 +413,25 @@ a:active {
 }
 
 .content {
-  height: 2406px;
+  height: 2297px;
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
 
 .content .right-panel {
-  height: 2406px;
+  height: 2297x;
   -ms-flex-preferred-size: 1354px;
       flex-basis: 1354px;
   background: yellow;
 }
 
 .content .center-hall {
-  height: 2406px;
+  height: 2297px;
   -ms-flex-preferred-size: 3200px;
       flex-basis: 3200px;
+  background: black;
   background-image: url(../img/Hall.png);
+  background-repeat: no-repeat;
   background-position: center center;
   -webkit-box-align: end;
       -ms-flex-align: end;
@@ -437,7 +439,7 @@ a:active {
 }
 
 .content .left-panel {
-  height: 2406px;
+  height: 2297px;
   -ms-flex-preferred-size: 1354px;
       flex-basis: 1354px;
   background: green;
