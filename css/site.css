@@ -356,10 +356,10 @@ template {
 }
 
 body {
-  max-width: 5906px;
+  max-width: 1140px;
 }
 
-.flex-container {
+body .flex-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -368,66 +368,66 @@ body {
           align-items: center;
 }
 
-.header {
-  height: 923px;
-  background: black;
-}
-
-.header .logo {
-  height: 797px;
-  background: black;
-}
-
-.header .nav-up {
+body .header {
   height: 126px;
+  background: black;
+}
+
+body .header .logo {
+  height: 107px;
+  background: black;
+}
+
+body .header .nav-up {
+  height: 17px;
   background: #333333;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  font-size: 92px;
+  font-size: 16px;
   color: #ba000d;
 }
 
-.header .nav-up :last-child {
+body .header .nav-up :last-child {
   color: white;
 }
 
-.header .nav-up :first-child {
+body .header .nav-up :first-child {
   color: white;
 }
 
-.content {
-  height: 2406px;
+body .content {
+  height: 325px;
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
 
-.content .right-panel {
+body .content .right-panel {
   background: yellow;
 }
 
-.content .center-hall {
+body .content .center-hall {
   background: greenyellow;
 }
 
-.content .left-panel {
+body .content .left-panel {
   background: green;
 }
 
-.footer {
-  height: 531px;
+body .footer {
+  height: 72px;
 }
 
-.footer .on-footer {
-  height: 106px;
+body .footer .on-footer {
+  height: 14px;
   background: black;
 }
 
-.footer .nav-down {
-  height: 425px;
+body .footer .nav-down {
+  height: 57px;
   background: #333333;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  font-size: 92px;
+  font-size: 16px;
   color: #ba000d;
 }
 /*# sourceMappingURL=site.css.map */
