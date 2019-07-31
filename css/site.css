@@ -351,8 +351,8 @@ template {
   display: none;
 }
 
-.nunito-regular {
-  font-family: 'Nunito', sans-serif;
+.open-sans {
+  font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -419,10 +419,10 @@ a:active {
 }
 
 .content .right-panel {
-  height: 2297x;
+  height: 2297px;
   -ms-flex-preferred-size: 1354px;
       flex-basis: 1354px;
-  background: yellow;
+  background: black;
 }
 
 .content .center-hall {
@@ -442,7 +442,7 @@ a:active {
   height: 2297px;
   -ms-flex-preferred-size: 1354px;
       flex-basis: 1354px;
-  background: green;
+  background: black;
 }
 
 .footer {

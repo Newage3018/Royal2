@@ -22,7 +22,6 @@ a:active{color: rgb(0, 255, 191)};
 
 .header{
     height: 923px;
-    // background-image: url(/img/header.png);
     background:black;
     
     .logo{
@@ -40,30 +39,23 @@ a:active{color: rgb(0, 255, 191)};
         color: rgb(186,0,13);
         :last-child {color:white;};
         :first-child{color:white;};
-        // .nav-up{
-        //     align-content: space-between;
-            
-
-        // }
-        
+               
       
     }
 
 }
 .content{
     height: 2297px;
-    // max-height: 2406px;
     justify-content: space-around;
     
     .right-panel{
-        height: 2297x;
+        height: 2297px;
         flex-basis: 1354px;
-        background: yellow;
+        background:black;
         
 
     }
     .center-hall{
-        // height: 2406px;
         height: 2297px;
         flex-basis: 3200px;
         background: black;
@@ -75,14 +67,13 @@ a:active{color: rgb(0, 255, 191)};
     .left-panel{
         height: 2297px;
         flex-basis: 1354px;
-        background:green;
+        background:black;
     }
         
     
 }
 .footer{
     height: 531px;
-    // background:red;
     
     .on-footer{
         height: 106px;
