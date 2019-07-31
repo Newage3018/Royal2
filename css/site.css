@@ -359,6 +359,23 @@ body {
   max-width: 5906px;
 }
 
+a:link {
+  color: #9fa7a5;
+}
+
+a:visited {
+  color: #323036;
+}
+
+a:hover {
+  color: #8c8b8d;
+  cursor: pointer;
+}
+
+a:active {
+  color: #00ffbf;
+}
+
 .flex-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -402,14 +419,27 @@ body {
 }
 
 .content .right-panel {
+  height: 2406px;
+  -ms-flex-preferred-size: 1354px;
+      flex-basis: 1354px;
   background: yellow;
 }
 
 .content .center-hall {
-  background: greenyellow;
+  height: 2406px;
+  -ms-flex-preferred-size: 3200px;
+      flex-basis: 3200px;
+  background-image: url(../img/Hall.png);
+  background-position: center center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 .content .left-panel {
+  height: 2406px;
+  -ms-flex-preferred-size: 1354px;
+      flex-basis: 1354px;
   background: green;
 }
 
