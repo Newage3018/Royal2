@@ -29,7 +29,7 @@ body{
         height: 126px;  
         background:rgb(51, 51, 51);
         justify-content: space-around;
-        font-size: 72px;
+        font-size: 92px;
         color: rgb(186,0,13);
         :last-child {color:white;};
         :first-child{color:white;};
@@ -45,11 +45,38 @@ body{
 }
 .content{
     height: 2406px;
-    background:blueviolet;
+    justify-content: space-around;
+    
+    .right-panel{
+        background: yellow;
+        
+
+    }
+    .center-hall{
+        background: greenyellow;
+    }
+    .left-panel{
+        background:green;
+    }
+        
+    
 }
 .footer{
-    height: 425px;
-    background:red;
+    height: 531px;
+    // background:red;
+    
+    .on-footer{
+        height: 106px;
+        background: black;
+    }
+
+    .nav-down{
+        height: 425px;  
+        background:rgb(51, 51, 51);
+        justify-content: space-around;
+        font-size: 92px;
+        color: rgb(186,0,13);
+    }
 }
 
 

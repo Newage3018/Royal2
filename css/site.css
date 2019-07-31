@@ -383,7 +383,7 @@ body {
   background: #333333;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  font-size: 72px;
+  font-size: 92px;
   color: #ba000d;
 }
 
@@ -397,11 +397,37 @@ body {
 
 .content {
   height: 2406px;
-  background: blueviolet;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.content .right-panel {
+  background: yellow;
+}
+
+.content .center-hall {
+  background: greenyellow;
+}
+
+.content .left-panel {
+  background: green;
 }
 
 .footer {
+  height: 531px;
+}
+
+.footer .on-footer {
+  height: 106px;
+  background: black;
+}
+
+.footer .nav-down {
   height: 425px;
-  background: red;
+  background: #333333;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 92px;
+  color: #ba000d;
 }
 /*# sourceMappingURL=site.css.map */
