@@ -1,6 +1,7 @@
 body{
     max-width: 5906px;
     
+    
 }
 
 a:link{color: rgb(159, 167, 165)};
@@ -16,7 +17,9 @@ a:active{color: rgb(0, 255, 191)};
 }
 
 
-
+.main{
+    
+}
 
 
 
@@ -27,13 +30,14 @@ a:active{color: rgb(0, 255, 191)};
     .logo{
         height: 797px;
         background: black;
+        background-image: url(../img/header3.png);
 
       
     }
     
     .nav-up{
         height: 126px;  
-        background:rgb(51, 51, 51);
+        background: $primary-color;
         justify-content: space-around;
         font-size: 92px;
         color: rgb(186,0,13);
@@ -48,13 +52,20 @@ a:active{color: rgb(0, 255, 191)};
     height: 2297px;
     justify-content: space-around;
     
-    .right-panel{
+    
+    .left-panel{
         height: 2297px;
         flex-basis: 1354px;
         background:black;
-        
 
-    }
+        .left-menu{
+            height: 1900px;
+            margin-top: 150px; 
+            background:gray;
+            
+        }
+    }   
+    
     .center-hall{
         height: 2297px;
         flex-basis: 3200px;
@@ -64,13 +75,29 @@ a:active{color: rgb(0, 255, 191)};
         background-position: center center;
         align-items: flex-end;
     }
-    .left-panel{
+    
+    .right-panel{
         height: 2297px;
         flex-basis: 1354px;
         background:black;
-    }
+
+        .right-menu{
+            height: 1900px;
+            margin-top: 150px; 
+            background: $primary-color;
+            font-size:92px;
+            p{text-align: center};
+            
+            .title-right{
+                color: rgb(186,0,13)
+                
+            }
+            
+
+        }
         
-    
+
+    }
 }
 .footer{
     height: 531px;

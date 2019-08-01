@@ -393,11 +393,12 @@ a:active {
 .header .logo {
   height: 797px;
   background: black;
+  background-image: url(../img/header3.png);
 }
 
 .header .nav-up {
   height: 126px;
-  background: #333333;
+  background: #515151;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   font-size: 92px;
@@ -418,11 +419,17 @@ a:active {
       justify-content: space-around;
 }
 
-.content .right-panel {
+.content .left-panel {
   height: 2297px;
   -ms-flex-preferred-size: 1354px;
       flex-basis: 1354px;
   background: black;
+}
+
+.content .left-panel .left-menu {
+  height: 1900px;
+  margin-top: 150px;
+  background: gray;
 }
 
 .content .center-hall {
@@ -438,11 +445,26 @@ a:active {
           align-items: flex-end;
 }
 
-.content .left-panel {
+.content .right-panel {
   height: 2297px;
   -ms-flex-preferred-size: 1354px;
       flex-basis: 1354px;
   background: black;
+}
+
+.content .right-panel .right-menu {
+  height: 1900px;
+  margin-top: 150px;
+  background: #515151;
+  font-size: 92px;
+}
+
+.content .right-panel .right-menu p {
+  text-align: center;
+}
+
+.content .right-panel .right-menu .title-right {
+  color: #ba000d;
 }
 
 .footer {
