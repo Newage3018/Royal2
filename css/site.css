@@ -429,10 +429,54 @@ a:active {
 .content .left-panel .left-menu {
   height: 1900px;
   margin-top: 150px;
-  background: gray;
+  background: #515151;
+  font-size: 92px;
+}
+
+.content .left-panel .left-menu p {
+  text-align: center;
+}
+
+.content .left-panel .left-menu .title-left {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  color: #ba000d;
+}
+
+.content .left-panel .left-menu .title-left img {
+  display: block;
+  margin-top: 100px;
+}
+
+.content .left-panel .left-menu .menu-l {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style-type: none;
+  font-size: 76px;
+}
+
+.content .left-panel .left-menu .menu-l li {
+  width: 100%;
+  padding: 45px;
+  text-align: center;
+  color: #fff;
+}
+
+.content .left-panel .left-menu .menu-l a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.content .left-panel .left-menu .menu-l :hover {
+  color: #ba000d;
 }
 
 .content .center-hall {
+  position: relative;
   height: 2297px;
   -ms-flex-preferred-size: 3200px;
       flex-basis: 3200px;
@@ -440,9 +484,23 @@ a:active {
   background-image: url(../img/Hall.png);
   background-repeat: no-repeat;
   background-position: center center;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+}
+
+.content .center-hall .hall-slider {
+  position: absolute;
+  top: 624px;
+  left: 480px;
+  width: 1873px;
+  height: 993px;
+  background: red;
+  overflow: hidden;
+}
+
+.content .center-hall .hall-slider .slider {
+  width: 100%;
+  height: 100%;
+  font-size: 120px;
+  text-align: center;
 }
 
 .content .right-panel {
@@ -464,6 +522,40 @@ a:active {
 }
 
 .content .right-panel .right-menu .title-right {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  color: #ba000d;
+}
+
+.content .right-panel .right-menu .title-right img {
+  display: block;
+  margin-top: 100px;
+}
+
+.content .right-panel .right-menu .menu-r {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style-type: none;
+  font-size: 76px;
+}
+
+.content .right-panel .right-menu .menu-r li {
+  width: 100%;
+  padding: 45px;
+  text-align: center;
+  color: #fff;
+}
+
+.content .right-panel .right-menu .menu-r a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.content .right-panel .right-menu .menu-r :hover {
   color: #ba000d;
 }
 

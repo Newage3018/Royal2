@@ -53,27 +53,103 @@ a:active{color: rgb(0, 255, 191)};
     justify-content: space-around;
     
     
+    // .left-panel{
+    //     height: 2297px;
+    //     flex-basis: 1354px;
+    //     background:black;
+
+    //     .left-menu{
+    //         height: 1900px;
+    //         margin-top: 150px; 
+    //         background:gray;
+            
+    //     }
+    // }
+    
+    
     .left-panel{
-        height: 2297px;
+    height: 2297px;
         flex-basis: 1354px;
         background:black;
 
         .left-menu{
             height: 1900px;
             margin-top: 150px; 
-            background:gray;
+            background: $primary-color;
+            font-size:92px;
             
+            p{text-align: center};
+            
+            
+            .title-left{
+                // margin-top: 250px;
+                padding-top: 100px;
+                padding-bottom: 50px;
+                color: rgb(186,0,13);
+                img{display: block;
+                margin-top: 100px;};
+                
+            }
+            .menu-l{
+                flex-direction: column;
+                justify-content: space-around;
+                list-style-type: none;
+                font-size: 76px;
+                li{
+                    width: 100%;
+                    padding:45px;
+                    text-align: center;
+                    color: #fff;
+                }
+                a{
+                    color: #fff;
+                    text-decoration: none;
+                    
+                }
+                :hover{
+                    color: rgb(186,0,13);
+                };
+            }
         }
-    }   
+        
+
+    }
     
     .center-hall{
+        position: relative;
         height: 2297px;
         flex-basis: 3200px;
         background: black;
         background-image: url(../img/Hall.png);
         background-repeat: no-repeat;
         background-position: center center;
-        align-items: flex-end;
+
+
+        .hall-slider{
+            position: absolute;
+            top:624px;
+            left:480px;
+            width: 1873px;
+            height:993px;
+            background: red;
+            overflow: hidden;
+
+            .slider{
+                width: 100%;
+                height: 100%;
+                font-size: 120px;
+                text-align: center;
+
+            }
+
+            .fade{
+
+            }
+
+            
+
+        }
+        
     }
     
     .right-panel{
@@ -86,14 +162,39 @@ a:active{color: rgb(0, 255, 191)};
             margin-top: 150px; 
             background: $primary-color;
             font-size:92px;
+            
             p{text-align: center};
             
+            
             .title-right{
-                color: rgb(186,0,13)
+                // margin-top: 250px;
+                padding-top: 100px;
+                padding-bottom: 50px;
+                color: rgb(186,0,13);
+                img{display: block;
+                margin-top: 100px;};
                 
             }
-            
-
+            .menu-r{
+                flex-direction: column;
+                justify-content: space-around;
+                list-style-type: none;
+                font-size: 76px;
+                li{
+                    width: 100%;
+                    padding:45px;
+                    text-align: center;
+                    color: #fff;
+                }
+                a{
+                    color: #fff;
+                    text-decoration: none;
+                    
+                }
+                :hover{
+                    color: rgb(186,0,13);
+                };
+            }
         }
         
 
