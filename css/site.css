@@ -488,11 +488,10 @@ a:active {
 
 .content .center-hall .hall-slider {
   position: absolute;
-  top: 624px;
-  left: 480px;
+  top: 630px;
+  left: 465px;
   width: 1873px;
   height: 993px;
-  background: red;
   overflow: hidden;
 }
 
@@ -501,6 +500,11 @@ a:active {
   height: 100%;
   font-size: 120px;
   text-align: center;
+}
+
+.content .center-hall .hall-slider .slider .img {
+  width: 100%;
+  height: 100%;
 }
 
 .content .right-panel {
